@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = [1,5,74,21,15,20,63,74,52,10];
+    let max = number[0];
+    for (let i = 0; i < number.length; i++) {
+        if(number[i] > max) {
+            max = number[i];
+        }
+    }
+    for (let i = 0; i < number.length; i++) {
+        if(max === number[i]) {
+            console.log(i)
+        }
+    }
+</script>
+</body>
+</html>
